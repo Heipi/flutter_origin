@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_origin/ui/navigation/bottom.dart';
 import 'package:flutter_origin/ui/navigation/component/bottom_bar.dart';
 import 'package:flutter_origin/ui/navigation/component/bottom_bar_data.dart';
+import 'package:flutter_origin/ui/navigation/view_data.dart';
 
 class MainScreen extends StatelessWidget {
   @override
