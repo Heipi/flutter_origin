@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_origin/ui/main/home_screen.dart';
+import 'package:flutter_origin/ui/article/article_screen.dart';
+import 'package:flutter_origin/ui/home/home_screen.dart';
 import 'package:flutter_origin/ui/navigation/component/bottom_bar_data.dart';
 
 const TextStyle optionStyle =
     TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+
+List<String> barsText = ["首页", "推文", "精选", "我的"];
+
 List<Widget> bottomScreens = [
   HomeScreen(),
+  ArticleScreen(),
+  HomeScreen(),
+  HomeScreen(),
+];
 
 /*
 Text(
@@ -24,7 +32,6 @@ Text(
     'Index 3: Settings',
     style: optionStyle,
   ),*/
-];
 
 class HomeViewData {
   static final List<BottomBarData> bars = [
@@ -38,7 +45,7 @@ class HomeViewData {
   static final List<BottomBarData> swipers_local = [
     BottomBarData("images/home/swiper1.png",
         label: "https://mp.weixin.qq.com/s/CkR8BgGnZsMWkrm844fW1g"),
-    BottomBarData("images/home/swiper2.png",
+    BottomBarData("images/home/swiper2.jpg",
         label: "https://mp.weixin.qq.com/s/5hmRoU5jUdREwq4tu3b5fA"),
   ];
 
