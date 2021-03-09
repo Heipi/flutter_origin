@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
               decoration: BoxDecoration(
                 image: DecorationImage(
                     fit: BoxFit.fill,
-                    image: AssetImage("images/home/feed_bg.png")),
+                    image: AssetImage("images/home/feed.jpg")),
               ),
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -151,14 +151,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Expanded(
                     child: buildContainer(
-                        context, "images/home/emotion.png", "情绪与\n睡眠管理"),
+                        context, "images/home/emotion.jpg", "情绪与\n睡眠管理"),
                   ),
                   SizedBox(
                     width: 10,
                   ),
                   Expanded(
                       child: buildContainer(
-                          context, "images/home/notice.png", "\n活动公告")),
+                          context, "images/home/activitys.jpg", "\n活动公告")),
                 ],
               ),
             ),

@@ -31,13 +31,13 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
     barStore.add(BottomBarData("images/navigation/index.png",
-        selectImage: "images/navigation/index2.png", label: "首页"));
-    barStore.add(BottomBarData("images/navigation/community.png",
-        selectImage: "images/navigation/community2.png", label: "推文"));
-    barStore.add(BottomBarData("images/navigation/shopp.png",
-        selectImage: "images/navigation/shopp2.png", label: "专家"));
+        selectImage: "images/navigation/index_select.png", label: "首页"));
+    barStore.add(BottomBarData("images/navigation/article.png",
+        selectImage: "images/navigation/article_selector.png", label: "推文"));
+    barStore.add(BottomBarData("images/navigation/special.png",
+        selectImage: "images/navigation/special_selector.png", label: "专家"));
     barStore.add(BottomBarData("images/navigation/my.png",
-        selectImage: "images/navigation/my2.png", label: "我的"));
+        selectImage: "images/navigation/my_selector.png", label: "我的"));
   }
 
   void changeValue(int value) {

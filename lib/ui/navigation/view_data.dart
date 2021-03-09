@@ -35,26 +35,24 @@ Text(
 
 class HomeViewData {
   static final List<BottomBarData> bars = [
-    BottomBarData("images/home/insomnia.png", label: "睡眠"),
-    BottomBarData("images/home/depressed.png", label: "抑郁"),
-    BottomBarData("images/home/diagnosis.png", label: "舌诊"),
-    BottomBarData("images/home/Constitution.png", label: "体质"),
-    BottomBarData("images/home/Other.png", label: "其他"),
+    BottomBarData("images/home/sleep.png", label: "睡眠"),
+    BottomBarData("images/home/depress.png", label: "抑郁"),
+    BottomBarData("images/home/tongue.png", label: "舌诊"),
+    BottomBarData("images/home/body.png", label: "体质"),
+    BottomBarData("images/home/other.png", label: "其他"),
   ];
 
   static final List<BottomBarData> swipers_local = [
-    BottomBarData("images/home/swiper1.png",
+    BottomBarData("images/home/swiper1.jpg",
         label: "https://mp.weixin.qq.com/s/CkR8BgGnZsMWkrm844fW1g"),
     BottomBarData("images/home/swiper2.jpg",
         label: "https://mp.weixin.qq.com/s/5hmRoU5jUdREwq4tu3b5fA"),
   ];
 
   static final List<BottomBarData> swipers = [
-    BottomBarData(
-        "https://iik-ap1.oss-cn-shanghai.aliyuncs.com/images/7/2020/06/fv3Vw8zZ483B2tyWYi35X4IdvxkbwA.png",
+    BottomBarData("images/home/swiper1.jpg",
         label: "https://mp.weixin.qq.com/s/CkR8BgGnZsMWkrm844fW1g"),
-    BottomBarData(
-        "https://iik-ap1.oss-cn-shanghai.aliyuncs.com/images/2/2019/09/amhosBtACVMoMmjGDgtBc4EHb72Mcu.jpg",
+    BottomBarData("images/home/swiper2.jpg",
         label: "https://mp.weixin.qq.com/s/5hmRoU5jUdREwq4tu3b5fA"),
   ];
 }
