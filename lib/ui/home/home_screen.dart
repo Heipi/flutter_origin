@@ -143,6 +143,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),*/
+
+            // ClipRRect(
+            //   borderRadius: BorderRadius.circular(5),
+            //   child: Image.asset(
+            //     "images/home/feed.jpg",
+            //     fit: BoxFit.fill,
+            //     width: double.infinity,
+            //     height: 35,
+            //   ),
+            // ),
             Container(
               width: MediaQuery.of(context).size.width - 60,
               height: 80,
